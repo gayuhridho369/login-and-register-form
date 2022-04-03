@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register Form</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="card" id="card">
+
+        <div class="form-container register">
+            <form action="#" novalidate autocomplete="off">
+                <h1>REGISTER</h1>
+                <div class="socials">
+                    <a href="#" class="social-item"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-item"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social-item"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-item"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="form-register">
+                    <span>Or use your email address for register</span>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <input type="password" placeholder="Confirm Password" />
+                    <button>Register</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-container login">
+            <form action="#" novalidate autocomplete="off">
+                <h1>LOGIN</h1>
+                <div class="socials">
+                    <a href="#" class="social-item"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-item"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social-item"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-item"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="form-login">
+                    <span>Or use your email address for login</span>
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <button>Login</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <img src="./img/register.svg" alt="">
+                    <h1>"Hey Friends"</h1>
+                    <p>Already have an account registered? please login with your social media account or your email</p>
+                    <button class="outline" id="login">Login</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <img src="./img/login.svg" alt="">
+                    <h1>"Hello Friends"</h1>
+                    <p>If you don't have an account, let's register first with your social media account or your email
+                    </p>
+                    <button class="outline" id="register">Register</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
